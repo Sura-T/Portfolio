@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Project
 
-## Getting Started
+Welcome to my portfolio project! This repository showcases my skills, projects, and achievements.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [About](#about)
+- [Technologies](#technologies)
+- [Projects](#projects)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About
+
+This portfolio project is a collection of my work as a software developer. It includes various projects that demonstrate my expertise in different technologies and domains.
+
+## Technologies
+
+This project uses the following technologies:
+
+- HTML
+- CSS
+- JavaScript
+- React/Next.js
+- Node.js
+- Express
+- MongoDB
+
+## Projects
+
+Here are some of the projects included in this portfolio:
+
+1. **Enat Health Center**
+   - Description: This is a modern, responsive Health Center website built with ReactJS, showcasing a highly efficient and user-friendly UI/UX. The project focuses on providing a seamless user experience across devices with optimized rendering and smooth navigation..
+   - Technologies: React, TailwindCSS, JavaScript
+   - [Repository Link](https://github.com/Sura-T/health-center-premium)
+   - [Live Demo](https://health-center-premium-zsk7.vercel.app/)
+
+2. **Portfolio Website**
+   - Description: Modern portfolio website built with Next.js, showcasing my projects, skills, and experience. Designed with responsive layouts, smooth animations, and optimized performance to provide an engaging user experience across all devices.
+   - Technologies: React, Next.js, TypeScript, Tailwindcss
+   - [Repository Link](https://github.com/Sura-T/Portfolio)
+   - [Live Demo](https://yourusername.github.io/project-two)
+
+3. **Savoria Restaurant**
+   - Description: A stylish and responsive restaurant website built with HTML, CSS, and JavaScript, featuring a dynamic menu, smooth animations, and an elegant design for an inviting user experience.
+   - Technologies: HTML, CSS, JavaScript
+   - [Repository Link](https://github.com/Sura-T/Restaurant)
+   - [Live Demo](https://restaurant-pi-sandy-51.vercel.app/)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
+```sh
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to `http://localhost:3000` to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contributions are welcome! Please follow these steps to contribute:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch:
+   ```sh
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```sh
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```sh
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+If you have any questions or suggestions, feel free to contact me:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: your.email@example.com
+- GitHub: [yourusername](https://github.com/yourusername)
+- LinkedIn: [yourprofile](https://linkedin.com/in/yourprofile)
