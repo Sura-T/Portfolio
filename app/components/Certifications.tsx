@@ -164,9 +164,9 @@ export default function Certifications() {
                   <p className="text-sm">ID: {cert.credentialId}</p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {cert.skills.map((skill) => (
+                  {cert.skills.map((skill, index) => (
                     <span
-                      key={skill}
+                      key={`${skill}-${index}`}
                       className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-sm"
                     >
                       {skill}
