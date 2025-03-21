@@ -76,7 +76,7 @@ export default function Skills() {
                 {category.category}
               </h3>
               <div>
-                {category.items.map((skill, index) => (
+                {category.items.map((skill) => (
                   <div key={skill.name} className="mb-6">
                     <div className="flex justify-between mb-2">
                       <span className="text-gray-300 font-medium">{skill.name}</span>

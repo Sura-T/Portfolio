@@ -3,10 +3,10 @@
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Float, PerspectiveCamera } from '@react-three/drei';
 import { useRef } from 'react';
-// import * as THREE from 'three';
+import * as THREE from 'three';
 
 function FloatingCube() {
-  const meshRef = useRef();
+  const meshRef = useRef<THREE.Mesh>(null);
 
   return (
     <Float

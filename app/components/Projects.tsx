@@ -35,7 +35,17 @@ const projects = [
   }
 ];
 
-const ProjectCard = ({ project, index }: { project: any; index: number }) => {
+interface Project {
+  title: string;
+  description: string;
+  image: string;
+  tech: string[];
+  link: string;
+  demoLink?: string;
+  featured: boolean;
+}
+
+const ProjectCard = ({ project, index }: { project: Project; index: number }) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(cardRef, { once: true, margin: "-100px" });
 
