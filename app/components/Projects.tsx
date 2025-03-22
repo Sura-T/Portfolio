@@ -20,8 +20,8 @@ const projects = [
     description: "Modern portfolio website built with Next.js, showcasing my projects, skills, and experience. Designed with responsive layouts, smooth animations, and optimized performance to provide an engaging user experience across all devices.",
     image: "/image/portfolio.png",
     tech: ["Next.js", "TypeScript", "TailwindCSS"],
-    link: "https://github.com/yourusername/ecommerce-micro",
-    demoLink: "https://ecommerce-microservices-demo.com",
+    link: "https://github.com/Sura-T/Portfolio",
+    demoLink: "https://portfolio-surafeltakele-astueduets-projects.vercel.app/",
     featured: true
   },
   {
